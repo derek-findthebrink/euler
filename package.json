@@ -1,0 +1,15 @@
+{
+  "name": "euler",
+  "version": "1.0.0",
+  "description": "euler question solving",
+  "main": "lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coffee": "coffee -o build/ -wc dev/challenge/ & coffee -o test/ -wc dev/test/"
+  },
+  "author": "derek moore",
+  "license": "MIT",
+  "dependencies": {
+    "should": "^7.0.4"
+  }
+}
